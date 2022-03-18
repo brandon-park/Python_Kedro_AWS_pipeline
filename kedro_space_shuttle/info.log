@@ -1,0 +1,19 @@
+2021-12-10 20:54:27,290 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2021-12-10 20:54:27,398 - kedro.framework.session.session - WARNING - Unable to git describe G:\My Drive\umn\Fall 2021\MSBA6320 Data Mgmt\Trends marketplace\Individual\Brandon\kedro_tutorial
+2021-12-10 20:56:55,295 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2021-12-10 20:56:55,385 - kedro.framework.session.session - WARNING - Unable to git describe G:\My Drive\umn\Fall 2021\MSBA6320 Data Mgmt\Trends marketplace\Individual\Brandon\kedro_tutorial
+2021-12-10 20:58:36,137 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2021-12-10 20:58:36,223 - kedro.framework.session.session - WARNING - Unable to git describe G:\My Drive\umn\Fall 2021\MSBA6320 Data Mgmt\Trends marketplace\Individual\Brandon\kedro_tutorial
+2021-12-10 21:00:40,926 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2021-12-10 21:00:41,005 - kedro.framework.session.session - WARNING - Unable to git describe G:\My Drive\umn\Fall 2021\MSBA6320 Data Mgmt\Trends marketplace\Individual\Brandon\kedro_tutorial
+2021-12-10 21:13:36,901 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2021-12-10 21:13:36,979 - kedro.framework.session.session - WARNING - Unable to git describe G:\My Drive\umn\Fall 2021\MSBA6320 Data Mgmt\Trends marketplace\Individual\Brandon\kedro_tutorial
+2021-12-10 21:18:41,308 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2021-12-10 21:18:41,393 - kedro.framework.session.session - WARNING - Unable to git describe G:\My Drive\umn\Fall 2021\MSBA6320 Data Mgmt\Trends marketplace\Individual\Brandon\kedro_tutorial
+2021-12-10 21:20:35,833 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2021-12-10 21:20:35,915 - kedro.framework.session.session - WARNING - Unable to git describe G:\My Drive\umn\Fall 2021\MSBA6320 Data Mgmt\Trends marketplace\Individual\Brandon\kedro_tutorial
+2021-12-10 21:20:35,959 - kedro.config.config - INFO - Config from path `G:\My Drive\umn\Fall 2021\MSBA6320 Data Mgmt\Trends marketplace\Individual\Brandon\kedro_tutorial\conf\local` will override the following existing top-level config keys: s3
+2021-12-11 13:54:00,656 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2021-12-11 13:54:01,001 - kedro.config.config - INFO - Config from path `G:\My Drive\umn\Fall 2021\MSBA6320 Data Mgmt\Trends marketplace\Individual\Brandon\kedro_aws_pipeline\kedro_tutorial\conf\local` will override the following existing top-level config keys: s3
+2021-12-11 20:21:34,263 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2021-12-11 20:21:34,731 - kedro.config.config - INFO - Config from path `G:\My Drive\umn\Fall 2021\MSBA6320 Data Mgmt\Trends marketplace\Individual\Brandon\kedro_aws_pipeline\kedro_tutorial\conf\local` will override the following existing top-level config keys: s3

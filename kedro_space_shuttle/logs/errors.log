@@ -1,0 +1,2 @@
+2021-12-10 20:59:53,023 - kedro.pipeline.node - ERROR - Node `train_model_sagemaker([X_train@path,params:sklearn_estimator_kwargs]) -> [model_path]` failed with error: 
+[WinError 2] The system cannot find the file specified: 'src/kedro_tutorial/sagemaker_entry_point.py'

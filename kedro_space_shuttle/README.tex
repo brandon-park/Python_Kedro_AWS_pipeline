@@ -1,0 +1,128 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+
+\hypertarget{librarylatexpedf}{%
+\subsection{library(latexpedf)}\label{librarylatexpedf}}
+
+output: pdf\_document: default html\_document: default --- \# Kedro
+Spaceflights AWS Sagemaker Implementation \# Scenario It is 2160 and the
+space tourism industry is booming. Globally, there are thousands of
+space shuttle companies taking tourists to the Moon and back.
+
+\hypertarget{project}{%
+\subsection{Project}\label{project}}
+
+Construct a model for predicting the price for each trip to the Moon and
+the corresponding return flight
+
+\hypertarget{datasets}{%
+\subsection{Datasets}\label{datasets}}
+
+There are 3 datasets for this project and are present in data
+-\textgreater{} 01\_raw.
+
+companies.csv gives a list of the companies, their location and
+respective ratings for the space expedition.
+
+reviews.csv gives ratings for different shuttles on various parameters
+like comfort, price, crew and so on.
+
+shuttles.xlsx gives a list of shuttles, the base location, engine
+structure and cost for a space trip
+
+\hypertarget{pipeline-steps}{%
+\subsection{Pipeline Steps}\label{pipeline-steps}}
+
+\begin{itemize}
+\tightlist
+\item
+  Load the datasets
+\item
+  Preprocess data files
+\item
+  Combine data into one master data
+\item
+  Split data into Train and test
+\item
+  Train regression model on Sagemaker
+\item
+  Untar model
+\item
+  Evaluate model performance
+\end{itemize}
+
+\hypertarget{visualization}{%
+\subsection{Visualization}\label{visualization}}
+
+\begin{figure}
+\centering
+\includegraphics{https://github.umn.edu/park2599/kedro_aws_pipeline/blob/master/kedro_viz/viz1.JPG}
+\caption{viz1}
+\end{figure}
+
+\end{document}
