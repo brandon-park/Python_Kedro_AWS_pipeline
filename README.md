@@ -13,6 +13,6 @@ The kedro_viz folder contains some sample screenshots of the pipelines created.
 
 ## Examples of Kedro pipeline Vizualization
 
-<img src="https://github.umn.edu/park2599/kedro_aws_pipeline/blob/master/kedro_viz/viz1.JPG" width="1000">
+<img src="https://github.com/brandon-park/Python_Kedro_AWS_pipeline/blob/main/kedro_viz/viz1.JPG" width="1000">
 
-<img src="https://github.umn.edu/park2599/kedro_aws_pipeline/blob/master/kedro_viz/viz4.JPG" width="1000">
+<img src="https://github.com/brandon-park/Python_Kedro_AWS_pipeline/blob/main/kedro_viz/viz4.JPG" width="1000">
